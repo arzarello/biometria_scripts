@@ -43,7 +43,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `parametros` WRITE;
 /*!40000 ALTER TABLE `parametros` DISABLE KEYS */;
-INSERT INTO `parametros` VALUES (1,'multimediaPath','C:/Program Files/Apache Software Foundation/Tomcat 10.1/webapps/BiometriaJavaMySQL/PublicTempStorage/multimedia/'),(2,'umbral','0.5'),(3,'token','9F58017193E0942C789855BEC2A9D6D6'),(4,'historialLogin','10'),(8,'testing','s');
+INSERT INTO `parametros` VALUES (1,'multimediaPath','C:/Program Files/Apache Software Foundation/Tomcat 10.1/webapps/BiometriaJavaMySQL/PublicTempStorage/multimedia/'),(2,'umbral','0.5'),(3,'token','9F58017193E0942C789855BEC2A9D6D6'),(4,'historialLogin','10'),(8,'testing','s'),(9,'deshabilitarUsuario','3');
 /*!40000 ALTER TABLE `parametros` ENABLE KEYS */;
 UNLOCK TABLES;
 
